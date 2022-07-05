@@ -5,10 +5,7 @@ import lombok.AllArgsConstructor;
 import miu.edu.todo.dto.BasicToDoDto;
 import miu.edu.todo.dto.ToDoDto;
 import miu.edu.todo.service.TodoService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @RestController
 @RequestMapping("/todos")
+@CrossOrigin
 public class ToDoController {
 
 

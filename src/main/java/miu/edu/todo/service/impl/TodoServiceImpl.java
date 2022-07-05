@@ -27,7 +27,7 @@ public class TodoServiceImpl implements TodoService {
             result.add(modelMapper.map(item,BasicToDoDto.class));
         });
 
-        return null;
+        return result;
     }
 
     @Override
